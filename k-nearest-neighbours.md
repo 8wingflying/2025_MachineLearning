@@ -4,7 +4,9 @@
 - https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 - https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/
 - https://www.geeksforgeeks.org/machine-learning/machine-learning-algorithms/
+#### 參考資料:實作範例
 - https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/
+- https://www.geeksforgeeks.org/machine-learning/ml-implementation-of-knn-classifier-using-sklearn/
 ## 請以步驟形式說明-Nearest Neighbors (K-NN)
 - ChatGPT said:
 - 當然！以下是 K-Nearest Neighbors (K-NN) 算法的基本步驟：
