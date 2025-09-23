@@ -1,4 +1,10 @@
 # 2025_MachineLearning
+- 快速學習的三個演算法
+- 非監督學習的kMEANS叢集演算法
+- 監督式學習_分類_kNEARSNEIGHBOR演算法
+- 監督式學習_回歸_線性回歸
+- 演算法比較分析
+  - [iris](iris.md) 
 
 ## 學期成績計算
 - 期中考報告
