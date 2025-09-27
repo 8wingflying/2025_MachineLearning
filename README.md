@@ -34,7 +34,7 @@
 | 17	| 機器學習系統的攻防:論文分析與實務測試||
 | 18	| 期末考||
 
-## 舊版內容
+## 舊版內容  https://github.com/8wingflying/IPAS_AI_KSU_2025
 - https://github.com/8wingflying/IPAS_AI_Basic_202505/tree/main/ML%E5%AF%A6%E4%BD%9C
 - https://github.com/8wingflying/GenAI_SECURITY202410(需密碼)
 - https://github.com/8wingflying/AI2025
