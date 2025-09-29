@@ -1,5 +1,18 @@
 ## 不平衡學習(Imbalance Learning)
 
+## 參考資料
+- BalanceBenchmark: A Survey for Multimodal Imbalance Learning
+- https://arxiv.org/abs/2502.10816
+- A review of methods for imbalanced multi-label classification
+- https://www.sciencedirect.com/science/article/abs/pii/S0031320321001527
+- https://blog.csdn.net/hren_ron/article/details/81172044
+
+#### Python套件
+- imbalanced-learn
+- https://imbalanced-learn.org/stable/
+- pip install imbalanced-learn
+- https://github.com/ycz3792/imbalance-learn
+
 #### 不平衡學習的 Python 範例，包含三個部分：
 - 原始資料集 (不平衡)
 - SMOTE (過取樣)
