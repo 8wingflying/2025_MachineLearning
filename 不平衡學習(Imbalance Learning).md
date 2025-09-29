@@ -6,6 +6,10 @@
 - A review of methods for imbalanced multi-label classification
 - https://www.sciencedirect.com/science/article/abs/pii/S0031320321001527
 - https://blog.csdn.net/hren_ron/article/details/81172044
+- A survey on imbalanced learning: latest research, applications and future directions
+- https://link.springer.com/article/10.1007/s10462-024-10759-6
+
+
 
 #### Python套件
 - imbalanced-learn
