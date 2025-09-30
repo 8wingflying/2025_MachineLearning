@@ -1,3 +1,6 @@
+## 測試Kaggle底下程式碼搬到Google Colab上執行(要修正相關錯誤)
+- https://www.kaggle.com/code/tsenglung/python-data-visualizations/edit
+
 ```
 # -*- coding: utf-8 -*-
 """Iris_A888168_20250930.ipynb
