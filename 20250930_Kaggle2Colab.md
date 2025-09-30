@@ -13,7 +13,8 @@ Python Data Visualizations
 
 https://www.kaggle.com/code/benhamner/python-data-visualizations
 """
-
+```
+```python
 import pandas as pd
 
 import warnings # current version of seaborn generates a bunch of warnings that we'll ignore
