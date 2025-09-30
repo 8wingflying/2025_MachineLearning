@@ -1,7 +1,7 @@
 
 # IRIS資料集的分析技術
 # IRIS 資料集
-- 資料集說明
+- 資料集說明  https://www.kaggle.com/datasets/uciml/iris
 - 基本統計分析
   - df.describe()
   - df.info()
