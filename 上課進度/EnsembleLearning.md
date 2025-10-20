@@ -1,6 +1,7 @@
 # Ensemble Learning
 - https://www.kdnuggets.com/2019/01/ensemble-learning-5-main-approaches.html
 - 機器學習_學習筆記系列(35)：梯度提升(Gradient Boost)
+- 機器學習_學習筆記系列(44)：堆疊分類(Stacking Classifier)
 - https://pythongeeks.org/gradient-boosting-algorithm-in-machine-learning/
 - https://www.pythonkitchen.com/blending-algorithms-in-machine-learning/
 - https://www.jcchouinard.com/ensemble-learning/
