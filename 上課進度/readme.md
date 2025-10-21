@@ -9,3 +9,8 @@
   - https://www.geeksforgeeks.org/machine-learning/machine-learning/ 
 - Deep Learning Tutorial
   - https://www.geeksforgeeks.org/deep-learning/deep-learning-tutorial/
+
+## 數學
+- [Maths for Machine Learning](https://www.geeksforgeeks.org/machine-learning/machine-learning-mathematics/)
+- [Statistics For Machine Learning](https://www.geeksforgeeks.org/machine-learning/statistics-for-machine-learning/)
+- [Matrices(矩陣)](https://www.geeksforgeeks.org/engineering-mathematics/matrices/)
