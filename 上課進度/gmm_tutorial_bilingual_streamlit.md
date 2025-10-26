@@ -1,0 +1,172 @@
+# 🇹🇼 Gaussian Mixture Model (GMM) 教學文件 — 中英對照 + Streamlit 互動版
+
+---
+
+## 🧭 一、GMM 概念簡介 | GMM Overview
+
+**中文說明：**  
+高斯混合模型（Gaussian Mixture Model, GMM）是一種以多個高斯分佈組成的機率模型，用於對資料進行群集分析與密度估計。
+
+**English:**  
+The Gaussian Mixture Model (GMM) is a probabilistic model composed of multiple Gaussian distributions. It is used for clustering and density estimation.
+
+---
+
+## 📘 二、數學定義 | Mathematical Definition
+
+\[
+p(x) = \sum_{k=1}^{K} \pi_k \mathcal{N}(x|\mu_k, \Sigma_k)
+\]
+
+**中文解釋：**  
+其中 \(\pi_k\) 為權重（所有群集權重加總為 1），\(\mu_k\) 為均值，\(\Sigma_k\) 為共變異數矩陣。
+
+**English:**  
+Each \(\pi_k\) is a weight (summing to 1), \(\mu_k\) is the mean, and \(\Sigma_k\) is the covariance matrix.
+
+---
+
+## ⚙️ 三、EM 演算法 | EM Algorithm
+
+### E-step
+\[
+\gamma_{ik} = \frac{\pi_k \mathcal{N}(x_i|\mu_k, \Sigma_k)}{\sum_{j}\pi_j \mathcal{N}(x_i|\mu_j, \Sigma_j)}
+\]
+
+### M-step
+\[
+\pi_k = \frac{N_k}{N}, \quad \mu_k = \frac{1}{N_k}\sum_i \gamma_{ik}x_i, \quad \Sigma_k = \frac{1}{N_k}\sum_i \gamma_{ik}(x_i-\mu_k)(x_i-\mu_k)^T
+\]
+
+**中文說明：**  
+反覆執行 E 與 M 步驟直到收斂。
+
+**English:**  
+Iterate E and M steps until convergence.
+
+---
+
+## 🧩 四、GMM vs K-Means 比較 | GMM vs K-Means Comparison
+
+| 特性 Feature | K-Means | GMM |
+|---------------|----------|------|
+| 群集形狀 | 球狀 (Spherical) | 橢圓形 (Elliptical) |
+| 模型類型 | 幾何距離 (Distance-based) | 機率模型 (Probabilistic) |
+| 分群方式 | 硬分群 (Hard) | 軟分群 (Soft) |
+| 使用演算法 | Lloyd | EM |
+
+---
+
+## 🐍 五、Python 實作 | Python Implementation
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.mixture import GaussianMixture
+from sklearn.datasets import make_blobs
+
+# 1️⃣ 生成模擬資料 / Generate synthetic data
+X, y_true = make_blobs(n_samples=500, centers=3, cluster_std=0.6, random_state=42)
+
+# 2️⃣ 建立 GMM 模型 / Fit GMM model
+gmm = GaussianMixture(n_components=3, covariance_type='full', random_state=42)
+gmm.fit(X)
+labels = gmm.predict(X)
+
+# 3️⃣ 視覺化 / Visualization
+plt.figure(figsize=(8,6))
+plt.scatter(X[:, 0], X[:, 1], c=labels, s=30, cmap='viridis')
+plt.title("Gaussian Mixture Model Clustering")
+plt.xlabel("Feature 1")
+plt.ylabel("Feature 2")
+plt.show()
+```
+
+---
+
+## 📊 六、AIC / BIC 模型選擇 | Model Selection with AIC/BIC
+
+```python
+K = range(1, 10)
+aic_values, bic_values = [], []
+for k in K:
+    gmm = GaussianMixture(n_components=k, random_state=42)
+    gmm.fit(X)
+    aic_values.append(gmm.aic(X))
+    bic_values.append(gmm.bic(X))
+
+plt.plot(K, aic_values, marker='o', label='AIC')
+plt.plot(K, bic_values, marker='s', label='BIC')
+plt.legend()
+plt.title("Model Selection using AIC/BIC")
+plt.xlabel('Number of Components')
+plt.ylabel('Score')
+plt.show()
+```
+
+---
+
+## 🌐 七、Streamlit 互動版 | Streamlit Interactive Version
+
+建立一個互動式 GMM 視覺化應用：
+
+```python
+# gmm_streamlit_app.py
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.mixture import GaussianMixture
+from sklearn.datasets import make_blobs
+
+st.title("🎨 Gaussian Mixture Model (GMM) Interactive Demo")
+
+# Sidebar 控制項 / Sidebar controls
+n_components = st.sidebar.slider("Number of Components (K)", 1, 10, 3)
+std = st.sidebar.slider("Cluster Std Deviation", 0.1, 2.0, 0.6)
+
+# 生成資料 / Generate data
+X, _ = make_blobs(n_samples=500, centers=n_components, cluster_std=std, random_state=42)
+
+# 模型擬合 / Fit GMM
+gmm = GaussianMixture(n_components=n_components, random_state=42)
+gmm.fit(X)
+labels = gmm.predict(X)
+
+# 顯示結果 / Display results
+fig, ax = plt.subplots(figsize=(7,5))
+ax.scatter(X[:, 0], X[:, 1], c=labels, cmap='viridis', s=30)
+ax.set_title(f"GMM with {n_components} Components")
+ax.set_xlabel("Feature 1")
+ax.set_ylabel("Feature 2")
+st.pyplot(fig)
+```
+
+執行：
+```bash
+streamlit run gmm_streamlit_app.py
+```
+
+---
+
+## 🧪 八、測驗題 | Quiz
+
+1️⃣ **GMM 的核心假設是什麼？**  
+→ 資料來自多個高斯分佈的混合。
+
+2️⃣ **AIC/BIC 用於什麼？**  
+→ 模型選擇，決定最佳群集數。
+
+3️⃣ **GMM 的分群方式屬於哪一類？**  
+→ 軟分群（Soft Clustering）。
+
+---
+
+## 📚 九、延伸閱讀 | Further Reading
+- Bishop, *Pattern Recognition and Machine Learning* (2006)  
+- scikit-learn Docs: [https://scikit-learn.org/stable/modules/mixture.html](https://scikit-learn.org/stable/modules/mixture.html)  
+- Murphy, *Machine Learning: A Probabilistic Perspective* (2012)
+
+---
+
+💾 **說明**：本檔案可直接儲存為 `gmm_tutorial_bilingual_streamlit.md`，並於 Python + Streamlit 環境執行互動版教學。
+
