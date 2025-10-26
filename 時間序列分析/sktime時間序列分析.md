@@ -15,7 +15,7 @@
 
 ---
 
-## 2. 為什麼用 sktime？
+## 2. 為什麼用 sktime？(Chatgpt說的)
 - 傳統的 pandas + sklearn 在做時間序列有幾個痛點：
   - 1. 資料結構不友善
   - 2. 預測 API 不統一  
