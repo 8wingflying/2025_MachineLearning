@@ -4,30 +4,26 @@
 ---
 
 ## 1. 什麼是 sktime？
-`sktime` 是一個專門處理「時間序列資料」的 Python 開源套件。它把時間序列常見任務都做成統一 API，包含：
-
-- 預測（forecasting）  
-- 分類（time series classification）  
-- 分群 / 分段（clustering / segmentation）  
-- 特徵抽取（feature extraction）  
-- 時間序列轉換（transformers, sliding windows 等）
-
-你可以把它想像成「時間序列版的 scikit-learn」：同樣有 `fit()` / `predict()` 的風格，但針對時序資料特化。
+- `sktime` 是一個專門處理「時間序列資料」的 Python 開源套件。
+- 它把時間序列常見任務都做成統一 API，包含：
+  - 預測（forecasting）  
+  - 分類（time series classification）  
+  - 分群 / 分段（clustering / segmentation）  
+  - 特徵抽取（feature extraction）  
+  - 時間序列轉換（transformers, sliding windows 等）
+- 你可以把它想像成「時間序列版的 scikit-learn」：同樣有 `fit()` / `predict()` 的風格，但針對時序資料特化。
 
 ---
 
 ## 2. 為什麼用 sktime？
-傳統的 pandas + sklearn 在做時間序列有幾個痛點：
-
-1. 資料結構不友善  
-2. 預測 API 不統一  
-3. 時間步長 / 預測視窗（forecast horizon）處理麻煩  
-
-`sktime` 幫你解決這些問題：
-
-- 統一的 `fit()` / `predict(fh=...)` 介面  
-- 內建大量經典模型（ARIMA, Exponential Smoothing, Naive, Theta...）  
-- 支援回測（backtesting）與評估流程  
+- 傳統的 pandas + sklearn 在做時間序列有幾個痛點：
+  - 1. 資料結構不友善
+  - 2. 預測 API 不統一  
+  - 3. 時間步長 / 預測視窗（forecast horizon）處理麻煩  
+- `sktime` 幫你解決這些問題：
+  - 統一的 `fit()` / `predict(fh=...)` 介面  
+  - 內建大量經典模型（ARIMA, Exponential Smoothing, Naive, Theta...）  
+  - 支援回測（backtesting）與評估流程  
 
 ---
 
@@ -38,7 +34,9 @@ pip install sktime
 # 或完整安裝（含所有外部依賴）
 pip install sktime[all-extras]
 ```
+
 # 4. 時間序列資料格式
+
 ## 單一時間序列 (univariate)
 ```python
 
