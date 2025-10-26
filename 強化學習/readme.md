@@ -4,7 +4,8 @@
 - Stable-Baselines3 - Contrib (SB3-Contrib)
   -  `論文`[Stable-Baselines3: Reliable Reinforcement Learning Implementations](https://jmlr.org/papers/volume22/20-1364/20-1364.pdf)
   - [Stable Baselines3 (SB3)Docs ](https://stable-baselines3.readthedocs.io/en/master/)
-- [RL Algorithms](https://stable-baselines3.readthedocs.io/en/master/guide/algos.html)
+  - https://github.com/Stable-Baselines-Team/stable-baselines3-contrib
+  - [RL Algorithms](https://stable-baselines3.readthedocs.io/en/master/guide/algos.html)
 
 
 ## stable_baselines3
