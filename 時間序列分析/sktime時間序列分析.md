@@ -190,24 +190,27 @@ clf.fit(X_train, y_train)
 print(clf.predict(X_test))
 ```
 ## 12. sktime vs 其他工具比較
+
 工作內容	用 sktime 的理由	傳統作法
+
 傳統 ARIMA	API 統一	statsmodels
+
 模型比較	可共用回測流程	手刻
+
 多步預測	fh 統一處理	for 迴圈
+
 時間序列分類	原生支援	sklearn 不支援
+
 GridSearch	ForecastingGridSearchCV	手刻調參
 API 一致性	與 sklearn 類似	Prophet/ARIMA 不同
 
-13. 注意事項
-Index 請使用 DatetimeIndex 或 PeriodIndex
+## 13. 注意事項
+- Index 請使用 DatetimeIndex 或 PeriodIndex
+- fh 可為相對步長或絕對時間
+- 時序不可 shuffle
+- 多變量與多系列格式不同，要區分清楚
 
-fh 可為相對步長或絕對時間
-
-時序不可 shuffle
-
-多變量與多系列格式不同，要區分清楚
-
-14. 完整範例：從資料到評估
+## 14. 完整範例：從資料到評估
 
 ```python
 import pandas as pd
