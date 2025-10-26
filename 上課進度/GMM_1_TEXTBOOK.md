@@ -1,6 +1,6 @@
 
-#
-
+# 高斯混合模型
+- https://github.com/oreilly-japan/deep-learning-from-scratch-5
 ## [Deep Learning 5｜生成模型開發實作 | 斎藤康毅](https://www.tenlong.com.tw/products/9786264251327?list_name=lv) 
 ```
 STEP 1 常態分布
