@@ -1,4 +1,4 @@
-# 🌸 Iris 資料集無監督學習（Unsupervised Clustering）教學（含 DBSCAN 與 GMM 進階分析）
+# 🌸 Iris 資料集 無監督學習（Unsupervised Clustering）比較分析
 
 ---
 
