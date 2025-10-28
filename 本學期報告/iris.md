@@ -41,7 +41,8 @@
     - https://www.kaggle.com/code/ensari/hierarchical-clustering-on-the-iris-dataset
   - PCA
     - https://www.kaggle.com/code/zakariaelaoufi/pca-from-scratch-in-python-vs-sklearn-implementat
-## Kaggle 解題
+  - Gaussian Mixture Model
+# Kaggle 解題
 - https://www.kaggle.com/code/samithsachidanandan/iris-dataset-analysis-classification
 
 
