@@ -18,14 +18,15 @@
 
 對於每一類別 \( C_k \)，Bernoulli Naive Bayes 的條件機率為：
 
-\[
+$$
 P(X|C_k) = \prod_{i=1}^{n} P(x_i|C_k)^{x_i} \cdot (1 - P(x_i|C_k))^{(1 - x_i)}
-\]
+$$
 
 分類規則：
-\[
+
+$$
 \hat{C} = \arg\max_{C_k} P(C_k) \prod_{i=1}^{n} P(x_i|C_k)^{x_i} (1 - P(x_i|C_k))^{1 - x_i}
-\]
+$$
 
 ---
 
