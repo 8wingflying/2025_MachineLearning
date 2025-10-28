@@ -19,9 +19,11 @@
   - KNN
   - Isolation Forest
   - one
- 
+## 套件
+- 自動化異常偵測框架：
+  - PyOD（Python Outlier Detection Library）
+  - ADTK（Anomaly Detection Toolkit）
 
-##
 # 📘 Outlier Detection 離群值偵測教學文件
 
 > 作者：ChatGPT 教學文件  
