@@ -1,11 +1,11 @@
-# Bernoulli Naive Bayes Tutorial 伯努利贝氏分類器教學
+# Bernoulli Naive Bayes 伯努利貝氏分類
 
 ---
 
 ## Part 1 | Concept & Intuition 概念與直覺
 
-**Bernoulli Naive Bayes (BNB)** 適用於 **二元特徵資料**（例如文字是否出現、事件是否發生、0/1 特徵）。
-它假設每個特徵都遵循 **伯努利分佈 (Bernoulli Distribution)**，即只有「出現 (1)」或「未出現 (0)」兩種情況。
+- **Bernoulli Naive Bayes (BNB)** 適用於 **二元特徵資料**（例如文字是否出現、事件是否發生、0/1 特徵）。
+- 它假設每個特徵都遵循 **伯努利分佈 (Bernoulli Distribution)**，即只有「出現 (1)」或「未出現 (0)」兩種情況。
 
 ### ✅ 適用情境
 - 文字分類（例如垃圾郵件過濾）  
