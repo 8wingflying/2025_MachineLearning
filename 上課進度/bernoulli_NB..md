@@ -136,5 +136,69 @@ print(f"MultinomialNB Accuracy: {mnb_scores.mean():.3f}")
 4. 可作為 NLP baseline 用來測試基礎模型效能。
 
 ---
+## Part 9 | Extended Chapter: TF-IDF + BernoulliNB 文字分類實戰 × 可視化結果
 
+### 📘 實戰目標
+使用 **TF-IDF 向量化** 結合 BernoulliNB 進行文字分類，並可視化分類結果的信心分布。
+
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+
+# 範例資料集
+texts = [
+    "Win money now!", "Meeting schedule update",
+    "Free vacation offer", "Important project deadline",
+    "Congratulations, you are selected", "Let's have lunch tomorrow"
+]
+labels = [1, 0, 1, 0, 1, 0]  # 1 = spam, 0 = ham
+
+# TF-IDF 向量化
+vectorizer_tfidf = TfidfVectorizer(stop_words='english', binary=True)
+X_tfidf = vectorizer_tfidf.fit_transform(texts)
+
+# 模型訓練
+bnb_tfidf = BernoulliNB()
+bnb_tfidf.fit(X_tfidf, labels)
+
+# 預測與信心分數
+probs = bnb_tfidf.predict_proba(X_tfidf)[:, 1]
+
+# PCA 視覺化
+pca = PCA(n_components=2).fit_transform(X_tfidf.toarray())
+plt.figure(figsize=(6, 4))
+plt.scatter(pca[:, 0], pca[:, 1], c=probs, cmap='coolwarm', s=100, edgecolors='k')
+plt.colorbar(label='Spam Probability')
+plt.title('TF-IDF + BernoulliNB Spam Classification Visualization')
+plt.xlabel('PCA Dimension 1')
+plt.ylabel('PCA Dimension 2')
+plt.show()
+```
+
+### 📊 結果解讀
+- 顏色越紅代表模型越認為該文本屬於「Spam」。  
+- 可觀察分類邊界與模型信心分布。  
+- 若改用 MultinomialNB，整體信心分佈會更受詞頻強度影響。
+
+---
+
+## Part 10| Pros & Cons 優缺點分析
+
+| 優點 | 缺點 |
+|------|------|
+| 適合布林特徵與稀疏矩陣 | 非二元特徵需轉換 |
+| 計算快速、訓練時間短 | 假設特徵獨立性過新 |
+| 短文本分類效果良好 | 無法利用字頻資訊 |
+
+---
+
+## Part 11 | Practical Tips 實務建議
+
+1. 對 Binary 特徵最適用，如是否出現、是否點擊、是否存在關鍵詞。  
+2. 在短文本上比 MultinomialNB 更有效，而在長文本則相反。  
+3. 組合 TF-IDF 向量化或特徵選擇，可顯著提升效能。  
+4. 可作為 NLP baseline 用來測試基礎模型效能。
+
+---
 ✨ **End of Tutorial** — `Bernoulli_NB_Tutorial.md`
