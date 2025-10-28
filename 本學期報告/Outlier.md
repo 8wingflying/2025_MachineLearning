@@ -18,10 +18,13 @@
 - 機器學習
   - KNN
   - Isolation Forest
-  - one
+  - One-Class SVM
+  -  ...
 ## 套件
 - 自動化異常偵測框架：
   - PyOD（Python Outlier Detection Library）
+    - `論文`[PyOD 2: A Python Library for Outlier Detection with LLM-powered Model Selection](https://www.arxiv.org/abs/2412.12154)
+    - https://pyod.readthedocs.io/en/latest/
   - ADTK（Anomaly Detection Toolkit）
 
 # 📘 Outlier Detection 離群值偵測教學文件
