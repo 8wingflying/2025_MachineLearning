@@ -18,6 +18,7 @@
 - 機器學習
   - KNN
   - Isolation Forest
+    - https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-4-isolation-forest-170615222ab8 
   - One-Class SVM
   -  ...
 ## 套件
