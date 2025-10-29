@@ -1,4 +1,7 @@
-
+##
+- 高斯分布 ==> MLE
+- 多元高斯分布 ==> MLE
+- 高斯混合模型  ==> MLE無法 ==>   要用STEP 5 EM 演算法
 # 高斯混合模型
 - https://github.com/oreilly-japan/deep-learning-from-scratch-5
 ## [Deep Learning 5｜生成模型開發實作 | 斎藤康毅](https://www.tenlong.com.tw/products/9786264251327?list_name=lv) 
