@@ -23,9 +23,9 @@
 
 DBSCAN 將資料點分為：核心點、邊界點、離群點。
 
-\[
+$$
 N_\varepsilon(p) = \{ q \in D \mid dist(p, q) \leq \varepsilon \}
-\]
+$$
 
 ---
 
