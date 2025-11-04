@@ -25,7 +25,7 @@
     - https://github.com/arundo/adtk
     - https://adtk.readthedocs.io/en/stable/
     - 範例練習:https://adtk.readthedocs.io/en/stable/examples.html
-    - 資料集測試: The Numenta Anomaly Benchmark (NAB) 
+    - 資料集測試: [The Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB/tree/master)
 
 # 參考資料:Anomaly Detection
 - https://github.com/dataman-git/Handbook-of-anomaly-detection
