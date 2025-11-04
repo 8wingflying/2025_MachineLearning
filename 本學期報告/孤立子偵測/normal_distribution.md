@@ -23,8 +23,8 @@ $$
 
 其中：
 - $\mu $：平均數（Mean）
-- \( \sigma \)：標準差（Standard Deviation）
-- \( \sigma^2 \)：變異數（Variance）
+- $\sigma$：標準差（Standard Deviation）
+- $\sigma^2$：變異數（Variance）
 
 ---
 
@@ -42,9 +42,11 @@ $$
 ## 🧮 四、標準常態分布（Standard Normal Distribution）
 
 若：
-\[
+
+$$
 Z = \frac{X - \mu}{\sigma}
-\]
+$$
+
 則 Z 服從 **標準常態分布**，其平均數 μ=0，標準差 σ=1。
 
 Z 分數（Z-score）表示資料點距離平均值幾個標準差，用來比較不同常態分布下的數據。
