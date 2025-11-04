@@ -25,7 +25,9 @@
     - https://github.com/arundo/adtk
     - https://adtk.readthedocs.io/en/stable/
     - 範例練習:https://adtk.readthedocs.io/en/stable/examples.html
-    - 資料集測試: [The Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB/tree/master)
+  - 測試資料集
+    - [The Numenta Anomaly Benchmark (NAB)](https://github.com/numenta/NAB/tree/master)
+    - [ODDS (Outlier Detection Datasets)](http://odds.cs.stonybrook.edu) 
 
 # 參考資料:Anomaly Detection
 - https://github.com/dataman-git/Handbook-of-anomaly-detection
@@ -41,7 +43,9 @@
     - https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-4-isolation-forest-170615222ab8 
   - One-Class SVM
   -  ...
-
+- [Extended Isolation Forest (EIF) 2018]
+  - 2018.11[Extended Isolation Forest](https://arxiv.org/abs/1811.02141)
+  - [GITHUB](https://github.com/sahandha/eif)
 # 📘 測試演算法 詳盡版
 ---
 
