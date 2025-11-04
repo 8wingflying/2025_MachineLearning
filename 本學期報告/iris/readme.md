@@ -35,7 +35,8 @@
     - 使用tensorflow ==> https://www.kaggle.com/code/lavagod/add-tensorflow-iris
     - 使用PyToech ==>https://www.kaggle.com/code/nhathao151103/iris-with-cnn
     - 手把手撰寫 https://www.kaggle.com/code/amitpatil008/seaborn-tutorial
-- ensemble learning ==> 測試不同套件sklearn , xgboost(陳天奇於 2014 年 3 月), catboost,... (2017 年 1 月微軟發布了第一個穩定的 LightGBM)
+- ensemble learning ==>
+  - 測試不同套件sklearn , xgboost(陳天奇於 2014 年 3 月), catboost,... (2017 年 1 月微軟發布了第一個穩定的 LightGBM)
   - voting-classifier-iris-data  ==> https://www.kaggle.com/code/vutukuripavankumar10/voting-classifier-iris-data
   - Bagging-ensemble ==> https://www.kaggle.com/code/iyuviiiiiii27/bagging-ensemble
   - from xgboost import XGBClassifier
@@ -43,15 +44,21 @@
     - 手把手撰寫 ==> https://www.kaggle.com/code/vanhaunguyenhcmut/random-forest-from-scratch
     - 使用套件
   - Extra Trees
-- 非監督式學習
+- 非監督式學習1:叢集
   - K-means
     - 手把手撰寫
-    - 使用sklearn
+    - 使用sklearn套件
   - Hierarchical Clustering
     - https://www.kaggle.com/code/ensari/hierarchical-clustering-on-the-iris-dataset
+  - Gaussian Mixture Model
+  - dbscan
+  - hdbscan
+  - 非監督式學習2:Dimension Reduction
   - PCA
     - https://www.kaggle.com/code/zakariaelaoufi/pca-from-scratch-in-python-vs-sklearn-implementat
-  - Gaussian Mixture Model
+  - LDA
+  - t-sne
+  - UMAP
 # Kaggle 解題
 - https://www.kaggle.com/code/samithsachidanandan/iris-dataset-analysis-classification
 
