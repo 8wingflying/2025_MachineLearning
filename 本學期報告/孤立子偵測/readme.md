@@ -14,9 +14,18 @@
 ## 額外測試套件
 - 自動化異常偵測框架：
   - PyOD（Python Outlier Detection Library）
-    - `論文`[PyOD 2: A Python Library for Outlier Detection with LLM-powered Model Selection](https://www.arxiv.org/abs/2412.12154)
+    - `論文`
+      - 2022.02[ADBench: Anomaly Detection Benchmark](https://arxiv.org/abs/2206.09426)
+        - https://github.com/Minqi824/ADBench 
+      - 2023.09[ADGym: Design Choices for Deep Anomaly Detection](https://arxiv.org/abs/2309.15376)
+      - 2024.12[PyOD 2: A Python Library for Outlier Detection with LLM-powered Model Selection](https://www.arxiv.org/abs/2412.12154)
     - https://pyod.readthedocs.io/en/latest/
+    - 支援的45種演算法(Implemented Algorithms)
   - ADTK（Anomaly Detection Toolkit）時間序列
+    - https://github.com/arundo/adtk
+    - https://adtk.readthedocs.io/en/stable/
+    - 範例練習:https://adtk.readthedocs.io/en/stable/examples.html
+    - 資料集測試: The Numenta Anomaly Benchmark (NAB) 
 
 # 參考資料:Anomaly Detection
 - https://github.com/dataman-git/Handbook-of-anomaly-detection
