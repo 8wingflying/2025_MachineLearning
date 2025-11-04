@@ -1,4 +1,12 @@
 ## Iris
+- EDA
+- 監督式學習|分類
+  - 十隻
+  - Ensemble Learning 
+- 非監督式學習|叢集
+- 非監督式學習|Dimension Reduction
+
+## Iris
 - 資料集說明
 - 基本統計分析  ==> 資料視覺化 seaborn
   - df.describe()
