@@ -22,7 +22,7 @@ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
 $$
 
 其中：
-- \( \mu \)：平均數（Mean）
+- $$ \mu $$：平均數（Mean）
 - \( \sigma \)：標準差（Standard Deviation）
 - \( \sigma^2 \)：變異數（Variance）
 
