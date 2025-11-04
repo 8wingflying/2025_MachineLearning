@@ -1,4 +1,6 @@
 ## Iris
+- Iris Species鳶尾花資料集 Classify iris plants into three species in this classic dataset
+  - https://www.kaggle.com/datasets/uciml/iris
 - EDA
 - 監督式學習|分類
   - 十隻
