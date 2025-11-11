@@ -16,6 +16,15 @@
 - [Time Series Analysis with Python Cookbook](https://learning.oreilly.com/library/view/time-series-analysis/9781801075541/)  
   - https://github.com/PacktPublishing/Time-Series-Analysis-with-Python-Cookbook
 - [Time Series Analysis with Python Cookbook, 2E - Second Edition](https://learning.oreilly.com/library/view/time-series-analysis/9781805124283/)
+  - Chapter 9: Deep Learning for Time Series Anomaly Detection
+    - pip install datasetsforecast 範例資料集
+    - Time series anomaly detection with ARIMA
+    - Prediction-based anomaly detection using DL
+    - Anomaly detection using an LSTM AE
+    - Building an AE using PyOD
+    - Creating a VAE for time series anomaly detection
+    - Using GANs for time series anomaly detection
+    - https://github.com/PacktPublishing/Deep-Learning-for-Time-Series-Data-Cookbook/tree/main/Chapter_9 
 - [XGBoost for Regression Predictive Modeling and Time Series Analysis](https://learning.oreilly.com/library/view/xgboost-for-regression/9781805123057/)
   - https://github.com/PacktPublishing/XGBoost-for-Regression-Predictive-Modeling-and-Time-Series-Analysis  
 - [Modern Time Series Forecasting with Python](https://learning.oreilly.com/library/view/modern-time-series/9781803246802/)
