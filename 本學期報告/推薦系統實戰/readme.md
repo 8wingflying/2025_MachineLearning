@@ -3,6 +3,7 @@
 - https://surpriselib.com/
 
 ### 推薦系統資料集
+- [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
   - https://www.kaggle.com/code/abdullahasiff/data-analysis-and-exploration 
 - 🎥[Netflix Prize data - Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
