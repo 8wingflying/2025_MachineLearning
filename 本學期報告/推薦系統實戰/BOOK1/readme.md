@@ -1,6 +1,6 @@
 #### [Python 推薦系統實戰：基於深度學習、NLP 和圖算法的應用型推薦系統](https://www.tenlong.com.tw/products/9787302657408?list_name=trs-t)
 - https://github.com/Apress/applied-recommender-systems-python/tree/main
-- 1. Introduction to Recommendation Systems
+> 1. Introduction to Recommendation Systems
 - 2. Market Basket Analysis (Association Rule Mining)
 - 3. Content-Based Recommender Systems
 - 4. Collaborative Filtering
