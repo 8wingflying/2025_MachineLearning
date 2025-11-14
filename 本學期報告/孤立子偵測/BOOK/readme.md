@@ -7,6 +7,9 @@
 2. Introduction to Data Science
 3. Introduction to Machine Learning
 4. Traditional Machine Learning Algorithms
+   - 資料集:KDDCUP 1999 dataset
+   - OneClassSVM
+   - IsolationForest
 5. Introduction to Deep Learning
 6. Autoencoders
 7. Generative Adversarial Networks
@@ -16,7 +19,7 @@
 11. Practical Use Cases and Future Trends of Anomaly Detection
 ```
 ## Chapter 4 Traditional Machine Learning Algorithms
-- 資料集
+- 資料集:KDDCUP 1999 dataset
 - OneClassSVM
 - IsolationForest
 #### OneClassSVM
