@@ -2,6 +2,7 @@
 - Kaggle資料集
 - [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
 - 統計模型
+- 機器學習模型
 - 深度學習模型
 
 ## 書籍
