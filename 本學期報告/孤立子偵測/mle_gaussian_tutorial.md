@@ -29,7 +29,7 @@ $$
 X = \{x_1, x_2, ..., x_n\}
 $$
 
-每個樣本獨立且服從相同的高斯分布：
+(Independent and Identically Distributed (iid))每個樣本獨立且服從相同的高斯分布：
 
 $$
 L(\mu, \sigma^2) = \prod_{i=1}^n f(x_i|\mu, \sigma^2)
