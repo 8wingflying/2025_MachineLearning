@@ -11,7 +11,50 @@
 - 降維演算法實戰 
 - 半監督演算法實戰 ==> {降維 ==> 分類演算法 ==> cross-validation}
 
+## 20 種分類演算法
+- A. 線性模型 (4 種)
+  - Logistic Regression
+  - RidgeClassifier
+  - SGDClassifier（Log Loss）
+  - PassiveAggressiveClassifier
+- B. SVM / 核方法 (2 種)
+  - Linear SVM（LinearSVC）
+  - RBF SVM（SVC(kernel="rbf")）
+- C. kNN / 鄰近方法 (1 種)
+  - k-Nearest Neighbors (kNN)
+- D. 貝氏分類器 (2 種)
+  - GaussianNB
+  - BernoulliNB
+- E. 樹模型 (3 種)
+  - Decision Tree
+  - ExtraTreeClassifier
+  - RandomForest
+- F. 集成學習 (5 種)
+  - Gradient Boosting
+  - AdaBoost
+  - XGBoost
+  - LightGBM
+  - CatBoost
+- G. 神經網路 (3 種)
+  - MLPClassifier
+  - TabNetClassifier（可解釋深度表格模型）
+  - Simple PyTorch MLP（手寫）
 
+#### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
+- (2) HBOS
+- (3) ECOD
+- (4) Isolation Forest
+- (5) PCA
+- (6) One-Class SVM
+- (7) GMM
+- (8) KNN
+- (9) Local Outlier Factor (LOF)
+- (10) Cluster-Based Local Outlier Factor (CBLOF)
+- (11) Autoencoders
+- (12) Supervised Learning Primer
+- (13) Regularization
+- (14) Sampling Techniques for Extremely Imbalanced Data
+- (15) Representation Learning for Outlier Detection
 
 ## Chatgpt建議
 - 用途建議及注意事項
