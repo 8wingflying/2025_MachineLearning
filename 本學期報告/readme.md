@@ -8,7 +8,11 @@
 - 報告3:推薦系統實戰
 - 報告4:時間序列分析
 
-
+## 學習成熟度模型
+- level ==> 寫一個演算法 outperform all others
+- level ==> 讀最新論文 開發一個有效率演算法實作(含數學推導)
+- level  ==> 數學推導 ==> OO python class
+- level ==> 使用 套件 ==> 參數調校
 
 ## 期末報告
 - OBS
