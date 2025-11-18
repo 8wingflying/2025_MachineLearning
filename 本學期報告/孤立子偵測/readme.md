@@ -2,6 +2,10 @@
 - 名稱:孤立子偵測與不平衡學習演算法分析與報告
 - 檔案名稱:A888168_孤立子偵測與不平衡學習演算法分析與報告_20251007
 - 202509[Credit Card Fraud Detection](https://arxiv.org/abs/2509.15044)
+  - 由於階級不平衡及詐騙者模仿合法行為，信用卡詐騙仍是一大挑戰。
+  - 本研究利用欠取樣、SMOTE及混合方法，在真實世界資料集上評估五種機器學習模型——邏輯迴歸、隨機森林、XGBoost、K最近鄰（KNN）及多層感知器（MLP）。
+  - 我們的模型是以`原始不平衡`測試集為基礎評估，以更好地反映實際表現。
+  - 結果顯示混合方法在回憶與精確度之間達到最佳平衡，特別是提升了MLP與KNN的表現。 
 
 # 測試資料集
 #### 測試資料集1: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
