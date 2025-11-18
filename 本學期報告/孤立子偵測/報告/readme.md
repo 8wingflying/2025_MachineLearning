@@ -11,7 +11,7 @@
 - 降維演算法實戰 
 - 半監督演算法實戰 ==> {降維 ==> 分類演算法 ==> cross-validation}
 
-## 20 種分類演算法
+#### 20 種分類演算法
 - A. 線性模型 (4 種)
   - Logistic Regression
   - RidgeClassifier
@@ -40,6 +40,20 @@
   - TabNetClassifier（可解釋深度表格模型）
   - Simple PyTorch MLP（手寫）
 
+#### 降維演匴法
+- PCA（Principal Component Analysis）
+- Kernel PCA（RBF 核）
+- Truncated SVD
+- ICA（FastICA）
+- Gaussian Random Projection
+- Isomap
+- Locally Linear Embedding（LLE）
+- t-SNE
+- UMAP
+- Autoencoder（深度自編碼器）
+- LDA
+
+#### 叢集演算法
 #### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
 - (2) HBOS
 - (3) ECOD
