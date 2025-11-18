@@ -17,6 +17,49 @@
   - UMAP ==> Random Forest
   - UMAP + Random Forest ==> 超參數調教 GridSearchCV + Optuna
 
+
+## 信用卡偵測模型
+- [非監督式學習｜使用 Python](https://www.tenlong.com.tw/products/9789865024062)
+  - [Hands-On Unsupervised Learning Using Python](https://learning.oreilly.com/library/view/hands-on-unsupervised-learning/9781492035633/)
+  - https://github.com/aapatel09/handson-unsupervised-learning
+- EDA
+- 監督式學習 ==>chapter 02　完整的機器學習專案 Precision-Recall Curve
+  - Feature Engineering for Time Series Forecasting
+  - Model #1: Logistic Regression
+  - Model #2: Random Forests
+  - Model #3: Gradient Boosting Machine (XGBoost)
+  - Model #4: Gradient Boosting Machine (LightGBM)
+  - Stacking
+- 非監督式學習==> chapter 04　異常偵測
+  - Normal PCA Anomaly Detection
+  - Sparse PCA Anomaly Detection
+  - Kernel PCA Anomaly Detection
+  - Gaussian Random Projection Anomaly Detection
+  - Sparse Random Projection Anomaly Detection
+  - Nonlinear Anomaly Detection
+  - Dictionary Learning Anomaly Detection
+  - ICA Anomaly Detection
+  - Fraud Detection on the Test Set 
+- 神經網路==>  chapter 08　實際操作自動編碼器\
+  - undercomplete autoencoders 
+  - overcomplete autoencoders 
+  - sparse autoencoders 
+  - denoising autoencoders 
+  - variational autoencoders 
+- 半監督式學習(Semisupervised Learning)==> chapter 09　半監督式學習
+  - baselines
+    - a supervised model  ==> light gradient boosting + k-fold cross-validation
+    - a unsupervised mode  ==> a sparse two-layer overcomplete autoencoder with a linear activation function
+    - Semisupervised Model ==>
+- 深度學習  
+- NEWS
+  - 對抗網路盜刷 聯卡中心擬建立台版信用卡詐欺偵測模型 2024/07/17
+  - https://www.cna.com.tw/news/afe/202407170162.aspx
+  - 永豐金控ＡＩ科技團隊  https://www.cdns.com.tw/articles/609085
+    - 上半年展現高效執行，建置出「智能偵測信用卡盜刷模型」，在零點零零五秒內即可快速預測該筆交易的盜刷機率，並維持百分之九十八的準確率，快速應對潛在刷卡交易風險與詐欺行為
+    - 此外，團隊亦將實價登錄資料結合電子地圖資訊，自行開發「不動產自動估價模型」（ＡＶＭ），加速內部鑑價作業流程，協助民眾快速掌握更精確的可貸額度。
+  - 【玉山AI實例1】0.1秒揪出信用卡盜刷行為，一年擋下上億元損失
+    - https://www.ithome.com.tw/news/146199 
 #### 20 種分類演算法
 - A. 線性模型 (4 種)
   - Logistic Regression
