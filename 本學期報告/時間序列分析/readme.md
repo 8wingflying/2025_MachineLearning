@@ -4,6 +4,7 @@
 - 統計模型
 - 機器學習模型
 - 深度學習模型
+- Time Series Anomaly Detection
 
 ## 書籍
 - [Practical Time Series Analysis(2019)](https://learning.oreilly.com/library/view/practical-time-series/9781492041641/)
