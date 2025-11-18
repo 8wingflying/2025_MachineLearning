@@ -17,8 +17,11 @@
     - Collaborative Filtering ==> Recommend movies by finding similar users using matrix factorization techniques. 
   - Singular Value Decomposition (SVD) for collaborative filtering
     - https://github.com/Chhaviroy/movie-recommendation-system-svd  
-- 深度學習
-  -  受限玻爾茲曼機(restricted Boltzmann machine, RBM)`電影推薦系統
+- 深度學習(Deep Learning)
+  - 受限玻爾茲曼機(restricted Boltzmann machine, RBM)`電影推薦系統
+    - [非監督式學習｜使用 Python| Ankur A. Patel 著 ch 10](https://www.tenlong.com.tw/products/9789865024062?list_name=srh) 
+      - Hands-On Unsupervised Learning Using Python
+      - https://github.com/aapatel09/handson-unsupervised-learning
 - LLM
 
 
