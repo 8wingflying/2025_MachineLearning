@@ -18,6 +18,7 @@
   - Singular Value Decomposition (SVD) for collaborative filtering
     - https://github.com/Chhaviroy/movie-recommendation-system-svd  
 - 深度學習
+  -  受限玻爾茲曼機(restricted Boltzmann machine, RBM)`電影推薦系統
 - LLM
 
 
@@ -37,7 +38,7 @@
   - Practical Recommender Systems
 - [推薦系統：原理與實踐|Charu C. Aggarwal]()
   - Recommender Systems: The Textbook 
-- [ 統計推薦系統|（美）迪帕克·K.阿加瓦爾（Deepak K. Agarwal）](https://www.tenlong.com.tw/products/9787111635734?list_name=sp)
+- [統計推薦系統|（美）迪帕克·K.阿加瓦爾（Deepak K. Agarwal）](https://www.tenlong.com.tw/products/9787111635734?list_name=sp)
   - Statistical Methods for Recommender Systems 
 - BOOK2[Python推薦系統實戰：基於深度學習、NLP和圖算法的應用型推薦系統](https://www.tenlong.com.tw/products/9787302657408?list_name=lv)
   - [Applied Recommender Systems with Python: Build Recommender Systems with Deep Learning, Nlp and Graph-Based Techniques](https://learning.oreilly.com/library/view/applied-recommender-systems/9781484289549/)
@@ -60,7 +61,7 @@
     - NDCG（Normalize DCG）歸一化折扣累計收益
   - 第10章 基於圖
   - 第11章 新興領域和新技術
-- [大模型推薦系統實戰 從預訓練到智能代理部署|劉璐 張玉君]()
+- [大模型推薦系統實戰 從預訓練到智能代理部署|劉璐 張玉君](https://www.tenlong.com.tw/products/9787115675569)
 - [大模型智能推薦系統：技術解析與開發實踐|梁誌遠、韓曉晨](https://www.tenlong.com.tw/products/9787302685654?list_name=srh)
 - 已買[推薦系統核心技術與實踐|遊雪琪、劉建濤](https://www.tenlong.com.tw/products/9787302681946)
 
