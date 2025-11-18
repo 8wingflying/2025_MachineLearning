@@ -1,6 +1,7 @@
 # 報告2:
 - 名稱:孤立子偵測與不平衡學習演算法分析與報告
 - 檔案名稱:A888168_孤立子偵測與不平衡學習演算法分析與報告_20251007
+- 202509[Credit Card Fraud Detection](https://arxiv.org/abs/2509.15044)
 
 # 測試資料集
 #### 測試資料集1: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
