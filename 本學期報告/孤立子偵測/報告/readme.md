@@ -55,6 +55,7 @@
 
 #### 叢集演算法
 #### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
+- https://github.com/dataman-git/Handbook-of-anomaly-detection/tree/main
 - (2) HBOS
 - (3) ECOD
 - (4) Isolation Forest
