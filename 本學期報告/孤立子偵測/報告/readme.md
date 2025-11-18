@@ -8,9 +8,14 @@
 - 傳統叢集演算法實戰
   - 評估指標
   - 需列出那些是異常資料
+- 無監督異常偵測
+  - Isolation Forest
+  - Local Outlier Factor (LOF)
+  - One-Class SVM 
 - 降維演算法實戰 
 - 半監督演算法實戰 ==> {降維 ==> 分類演算法 ==> cross-validation}
-  - UMAP ==> Random Forest 
+  - UMAP ==> Random Forest
+  - UMAP + Random Forest ==> 超參數調教 GridSearchCV + Optuna
 
 #### 20 種分類演算法
 - A. 線性模型 (4 種)
@@ -55,6 +60,10 @@
 - LDA
 
 #### 叢集演算法
+
+#### SVD
+- https://en.wikipedia.org/wiki/Singular_value_decomposition#Intuitive_interpretations
+- https://arindam.cs.illinois.edu/papers/09/anomaly.pdf
 #### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
 - https://github.com/dataman-git/Handbook-of-anomaly-detection/tree/main
 - (2) HBOS
