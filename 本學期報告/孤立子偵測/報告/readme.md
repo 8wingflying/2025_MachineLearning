@@ -61,10 +61,21 @@
 
 #### 叢集演算法
 
+
+#### BAYES Classifier ==> MLE
+
 #### SVD
 - https://en.wikipedia.org/wiki/Singular_value_decomposition#Intuitive_interpretations
+- https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd/
+- https://www.geeksforgeeks.org/machine-learning/singular-value-decomposition-svd/
+- https://en.wikipedia.org/wiki/Singular_value_decomposition
+- https://towardsdatascience.com/singular-value-decomposition-svd-demystified-57fc44b802a0/
 - https://arindam.cs.illinois.edu/papers/09/anomaly.pdf
 - https://www.academia.edu/2691860/Anomaly_detection_A_survey
+
+#### GMM ==> EM
+
+
 #### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
 - https://github.com/dataman-git/Handbook-of-anomaly-detection/tree/main
 - (2) HBOS
