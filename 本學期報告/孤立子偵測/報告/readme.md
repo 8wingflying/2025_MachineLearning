@@ -64,6 +64,7 @@
 #### SVD
 - https://en.wikipedia.org/wiki/Singular_value_decomposition#Intuitive_interpretations
 - https://arindam.cs.illinois.edu/papers/09/anomaly.pdf
+- https://www.academia.edu/2691860/Anomaly_detection_A_survey
 #### [Handbook of Anomaly Detection(參看GITHUB所列的演算法)](https://medium.com/dataman-in-ai/handbook-of-anomaly-detection-1-introduction-39b799aab933)
 - https://github.com/dataman-git/Handbook-of-anomaly-detection/tree/main
 - (2) HBOS
