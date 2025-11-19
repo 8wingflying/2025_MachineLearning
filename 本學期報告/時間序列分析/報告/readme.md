@@ -9,7 +9,7 @@
 - 美股 ==>yfinance + TA-Lib/pandas-ta + vectorbt
 ## SP 500股票分析
 - 資料來源: https://figshare.com/articles/dataset/sp500_data_csv/26169322/1?file=47413582
-- 收集股票資料(要收那些資料??) ==> Yahoo Finance
+- 收集股票資料(要收那些資料??) ==> Yahoo Finance FinMind
 - 基本分析 ==> 傳統指標 MACD,RSI,...
 - 規則式分析 ==> 連續買入,連續收跌
 - 長期趨勢,短期趨勢
