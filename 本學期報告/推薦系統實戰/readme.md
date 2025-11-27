@@ -3,14 +3,17 @@
 ## AWESOME Recommender Systems
 - ACM Conference on Recommender Systems ==> https://en.wikipedia.org/wiki/ACM_Conference_on_Recommender_Systems
 - [ACM RecSys 2025 : 19th ACM Conference on Recommender Systems](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=185705)
+- 'REVIEW` 2024 [A Comprehensive Review of Recommender Systems: Transitioning from Theory to Practice](https://arxiv.org/abs/2407.13699)
+  - GITHUB ==> https://github.com/VectorInstitute/Recommender-Systems-Survey 
 - https://github.com/jihoo-kim/awesome-RecSys?tab=readme-ov-file
 - https://github.com/grahamjenson/list_of_recommender_systems
 - 推薦系統套件
   - https://surpriselib.com/
   - https://github.com/recommenders-team/recommenders
-## 課程
+## 課程與演講簡報
 - [Deep Learning for Recommendations:Fundamentals and Advances](https://advanced-recommender-systems.github.io/ijcai2021-tutorial/)
   - https://advanced-recommender-systems.github.io/ijcai2021-tutorial/ 
+- 台大林守德教授 https://www.slideshare.net/slideshow/ss-70231929/70231929
 ### 推薦系統資料集
 - 👉本學期上課 [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
