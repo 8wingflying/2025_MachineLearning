@@ -21,8 +21,8 @@
     - https://www.kaggle.com/code/ianolmstead/netflix-recommendation-models
 
 ## 推薦閱讀 BOOK2
-- [Python推薦系統實戰：基於深度學習、NLP和圖算法的應用型推薦系統](https://www.tenlong.com.tw/products/9787302657408?list_name=lv)
-- [Applied Recommender Systems with Python: Build Recommender Systems with Deep Learning, Nlp and Graph-Based Techniques](https://learning.oreilly.com/library/view/applied-recommender-systems/9781484289549/)
+- 👉[Python推薦系統實戰：基於深度學習、NLP和圖算法的應用型推薦系統](https://www.tenlong.com.tw/products/9787302657408?list_name=lv)
+- 👉[Applied Recommender Systems with Python: Build Recommender Systems with Deep Learning, Nlp and Graph-Based Techniques](https://learning.oreilly.com/library/view/applied-recommender-systems/9781484289549/)
   - https://github.com/Apress/applied-recommender-systems-python
 ## 推薦閱讀
 - [薦系統實踐入門｜可應用於工作上的指引](https://www.tenlong.com.tw/products/9786263247802?list_name=srh)
@@ -44,8 +44,8 @@
   - 第 4 章 特徵交叉
   - 第 6 章 Embedding表徵學習 
 - [大模型推薦系統實戰 從預訓練到智能代理部署|劉璐 張玉君](https://www.tenlong.com.tw/products/9787115675569?list_name=srh)
-- [推薦系統核心技術與實踐|遊雪琪、劉建濤]()
-  - 第2章  基於內容的推薦
+- 👉[推薦系統核心技術與實踐|遊雪琪、劉建濤](https://www.tenlong.com.tw/products/9787302681946)
+  - 第2章  基於`內容`的推薦  `內容` ==> NLP
     - 2.1  文本特徵提取
     - 2.1.1  詞袋模型
     - 2.1.2  n-gram模型
