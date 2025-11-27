@@ -37,6 +37,7 @@
   - 第5章 推薦演算法的細節
   - 第7章 推薦系統的評價
   - https://github.com/oreilly-japan/RecommenderSystems
+  - [oreilly](https://learning.oreilly.com/library/view/tui-jian-sisutemushi-jian-ru-men-shi-shi-deshi-erudao-ru-gaido/9784873119663/)
 - [越賣越多的祕密 - 使用 LLM 實作推薦系統及演算法|劉強 著](https://www.tenlong.com.tw/products/9786267757192?list_name=srh)
   - 作TALLRec、GIRL等前沿推薦模型
   - 運用大模型強化電子商務冷啟與對話推薦
