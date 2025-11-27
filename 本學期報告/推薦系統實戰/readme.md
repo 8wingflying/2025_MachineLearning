@@ -3,6 +3,9 @@
 - https://surpriselib.com/
 - https://github.com/recommenders-team/recommenders
 
+## AWESOME Recommender Systems
+- https://github.com/jihoo-kim/awesome-RecSys?tab=readme-ov-file
+- https://github.com/grahamjenson/list_of_recommender_systems
 ### 推薦系統資料集
 - [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
@@ -66,5 +69,5 @@
     - 2.6.1  機器學習方法 48
     - 2.6.2  深度學習方法 50 
 ## 論文研讀
-- `REVIEW`[A Survey of Foundation Model-Powered Recommender Systems: From Feature-Based, Generative to Agentic Paradigms](https://arxiv.org/abs/2504.16420)
+- `REVIEW` 202504 [A Survey of Foundation Model-Powered Recommender Systems: From Feature-Based, Generative to Agentic Paradigms](https://arxiv.org/abs/2504.16420)
 
