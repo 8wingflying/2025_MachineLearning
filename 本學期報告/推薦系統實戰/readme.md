@@ -1,4 +1,4 @@
-## [報告主題](報告.md)
+## 🎉 [報告主題](報告.md) 📢📢 
 ## 推薦系統套件
 - https://surpriselib.com/
 - https://github.com/recommenders-team/recommenders
@@ -6,11 +6,12 @@
 ## AWESOME Recommender Systems
 - https://github.com/jihoo-kim/awesome-RecSys?tab=readme-ov-file
 - https://github.com/grahamjenson/list_of_recommender_systems
+
 ### 推薦系統資料集
-- [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
+- 👉[MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
   - https://www.kaggle.com/code/abdullahasiff/data-analysis-and-exploration 
-- 🎥[Netflix Prize data - Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
+- 👉🎥[Netflix Prize data - Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
   - Netflix Prize百萬美金競賽
   - 2019年7月21日 · Netflix發起的Netflix Prize百萬美金競賽，是推薦系統領域最標誌性的事件之一
   - 比賽不但吸引了眾多專業人士開始投身於推薦系統領域的研究工作，也讓這項技術從學術圈真正地進入到了商業界
