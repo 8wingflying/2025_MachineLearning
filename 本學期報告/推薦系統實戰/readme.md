@@ -8,7 +8,9 @@
 - 推薦系統套件
   - https://surpriselib.com/
   - https://github.com/recommenders-team/recommenders
-
+## 課程
+- [Deep Learning for Recommendations:Fundamentals and Advances](https://advanced-recommender-systems.github.io/ijcai2021-tutorial/)
+  - https://advanced-recommender-systems.github.io/ijcai2021-tutorial/ 
 ### 推薦系統資料集
 - 👉本學期上課 [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
