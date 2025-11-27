@@ -29,7 +29,7 @@
 
 ## 推薦閱讀 BOOK2
 - 👉[Python推薦系統實戰：基於深度學習、NLP和圖算法的應用型推薦系統](https://www.tenlong.com.tw/products/9787302657408?list_name=lv)
-- 👉[Applied Recommender Systems with Python: Build Recommender Systems with Deep Learning, Nlp and Graph-Based Techniques](https://learning.oreilly.com/library/view/applied-recommender-systems/9781484289549/)
+  - Applied Recommender Systems with Python: Build Recommender Systems with Deep Learning, Nlp and Graph-Based Techniques](https://learning.oreilly.com/library/view/applied-recommender-systems/9781484289549/)
   - https://github.com/Apress/applied-recommender-systems-python
 ## 推薦閱讀
 - [薦系統實踐入門｜可應用於工作上的指引](https://www.tenlong.com.tw/products/9786263247802?list_name=srh)
