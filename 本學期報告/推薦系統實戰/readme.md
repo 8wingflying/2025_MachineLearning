@@ -1,14 +1,16 @@
 ## 🎉 [報告主題](報告.md) 📢📢 
-## 推薦系統套件
-- https://surpriselib.com/
-- https://github.com/recommenders-team/recommenders
 
 ## AWESOME Recommender Systems
+- ACM Conference on Recommender Systems ==> https://en.wikipedia.org/wiki/ACM_Conference_on_Recommender_Systems
+- [ACM RecSys 2025 : 19th ACM Conference on Recommender Systems](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=185705)
 - https://github.com/jihoo-kim/awesome-RecSys?tab=readme-ov-file
 - https://github.com/grahamjenson/list_of_recommender_systems
+- 推薦系統套件
+  - https://surpriselib.com/
+  - https://github.com/recommenders-team/recommenders
 
 ### 推薦系統資料集
-- 👉[MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
+- 👉本學期上課 [MovieLens 100K Dataset@ Kaggle](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
 - [E-Commerce Data@Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
   - https://www.kaggle.com/code/abdullahasiff/data-analysis-and-exploration 
 - 👉🎥[Netflix Prize data - Kaggle](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)
@@ -30,14 +32,10 @@
   - 第5章 推薦演算法的細節
   - 第7章 推薦系統的評價
   - https://github.com/oreilly-japan/RecommenderSystems
-## 推薦閱讀
-- ACM Conference on Recommender Systems ==> https://en.wikipedia.org/wiki/ACM_Conference_on_Recommender_Systems
-- [ACM RecSys 2025 : 19th ACM Conference on Recommender Systems](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=185705)
 - [越賣越多的祕密 - 使用 LLM 實作推薦系統及演算法|劉強 著](https://www.tenlong.com.tw/products/9786267757192?list_name=srh)
   - 作TALLRec、GIRL等前沿推薦模型
   - 運用大模型強化電子商務冷啟與對話推薦
   - 實務導向，涵蓋MIND與Amazon資料集應用 
-- [推薦系統實踐入門｜可應用於工作上的指引 推薦システム実践入門 ―仕事で使える導入ガイド|風間正弘, 飯塚洸二郎, 松村優也 陳朕疆 譯](https://www.tenlong.com.tw/products/9786263247802?list_name=srh)
 - [深度學習推薦系統 2.0|王喆](https://www.tenlong.com.tw/products/9787121497469?list_name=srh)
 - [大模型智能推薦系統：技術解析與開發實踐|梁誌遠、韓曉晨](https://www.tenlong.com.tw/products/9787302685654?list_name=srh)
 - [AI 讀心數 - 推薦系統演算法核心程式碼精通|謝楊易 著DM2468](https://www.tenlong.com.tw/products/9786267569146?list_name=srh)
