@@ -1,5 +1,5 @@
 # 時間序列分析|Time Series Analysis
-- Kaggle資料集
+- [Kaggle資料集](./報告/Kaggle股票分析資料集.md)
 - [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
 - 統計模型
 - 機器學習模型
