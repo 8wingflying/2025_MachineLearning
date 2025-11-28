@@ -1,3 +1,12 @@
+# Kaggle分析
+- 資料集:[MovieLens 100K Dataset](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
+- [MovieLens - Collaborative Filtering & SVD + gradio](https://www.kaggle.com/code/fatmaamrabdurrahman/movielens-collaborative-filtering-svd-gradio)
+- [Movie Reccomender System with Matrix Factorisation](https://www.kaggle.com/code/abhiramrayadurgam/movie-reccomender-system-with-matrix-factorisation)
+- [FROM ZERO TO HERO Implamentating: SVD++, KNN, NCF](https://www.kaggle.com/code/bananalord111/from-zero-to-hero-implamentating-svd-knn-ncf)
+- [Boltzman_Machine_Movie_Recommendation](https://www.kaggle.com/code/anlmehmetuyar/boltzman-machine-movie-recommendation)
+- [Comparison for Deep Recommender Systems](https://www.kaggle.com/code/hakanerdem/comparison-for-deep-recommender-systems)
+- [Deep Learning - AutoEncoder](https://www.kaggle.com/code/sethmackie/deep-learning-autoencoder)
+
 # 推薦系統報告主題
 - 推薦系統
 - 推薦系統類型
