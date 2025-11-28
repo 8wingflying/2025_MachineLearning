@@ -18,10 +18,12 @@
 * **簡介**: 專注於標普 500 指數成分股的歷史數據，數據相對乾淨標準。
 * **適用**: 投資組合優化 (Portfolio Optimization)、相關性矩陣分析。
 * **關鍵字搜尋**: `S&P 500 stock data` (by Cam Nugent)
+* [S&P 500 stock data | Kaggle](https://www.kaggle.com/datasets/camnugent/sandp500)
 
 ### **Nasdaq & NYSE Stocks (Fundamental)**
 * **簡介**: 除了價格外，部分資料集包含基本面指標 (PE Ratio, EPS, Market Cap)。
 * **適用**: 價值投資策略、多因子模型 (Multi-factor Model)。
+* [NASDAQ and NYSE stocks histories | Kaggle](https://www.kaggle.com/datasets/qks1lver/nasdaq-and-nyse-stocks-histories)
 
 ---
 
@@ -32,11 +34,13 @@
 * **簡介**: 經典入門資料集。結合了 DJIA (道瓊指數) 的漲跌標籤與當日 Reddit WorldNews 的熱門頭條。
 * **適用**: 二元分類 (預測漲跌)、文本情感分析。
 * **關鍵字搜尋**: `Daily News for Stock Market Prediction` (by Aaron7sun)
+* [Daily News for Stock Market Prediction | Kaggle](https://www.kaggle.com/datasets/aaron7sun/stocknews)
 
 ### **Financial Sentiment Analysis**
 * **簡介**: 包含標註好情緒 (Positive/Negative/Neutral) 的財經新聞語句。
 * **適用**: 訓練 FinBERT 模型、特定財經術語的情緒判讀。
 * **關鍵字搜尋**: `Sentiment Analysis for Financial News`
+* [Sentiment Analysis for Financial News | Kaggle](https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news)
 
 ### **Elon Musk Tweets & Stock Impact**
 * **簡介**: 收錄 Elon Musk 推文與 Tesla/Dogecoin 的同期價格。
