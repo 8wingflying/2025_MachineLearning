@@ -7,6 +7,9 @@
 ## 基本套件
 - 台股 ==>FinMind + pandas-ta + mplfinance
 - 美股 ==>yfinance + TA-Lib/pandas-ta + vectorbt
+
+## Kaggle資料集
+- [Kaggle股票分析資料集](Kaggle股票分析資料集.md)
 ## SP 500股票分析
 - 資料來源: https://figshare.com/articles/dataset/sp500_data_csv/26169322/1?file=47413582
 - 收集股票資料(要收那些資料??) ==> Yahoo Finance FinMind
