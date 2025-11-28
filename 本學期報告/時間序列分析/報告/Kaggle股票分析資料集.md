@@ -12,6 +12,7 @@
 * **格式**: 每個股票為獨立的 `.txt` / `.csv` 檔案。
 * **適用**: 大規模市場掃描、板塊分析、長期趨勢預測。
 * **關鍵字搜尋**: `Huge Stock Market Dataset` (by Boris Marjanovic)
+* [Huge Stock Market Dataset | Kaggle](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
 
 ### **S&P 500 Stock Data**
 * **簡介**: 專注於標普 500 指數成分股的歷史數據，數據相對乾淨標準。
