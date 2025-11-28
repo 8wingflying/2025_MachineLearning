@@ -22,6 +22,10 @@
     - [非監督式學習｜使用 Python| Ankur A. Patel 著 ch 10](https://www.tenlong.com.tw/products/9789865024062?list_name=srh) 
       - Hands-On Unsupervised Learning Using Python
       - https://github.com/aapatel09/handson-unsupervised-learning
+  - NLP-based
+    - LDA
+    - word2vec
+    - item2vec 
 - LLM
 
 
