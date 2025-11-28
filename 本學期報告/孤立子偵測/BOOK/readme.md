@@ -1,5 +1,8 @@
-
-
+#### books
+- 2024 [Outlier Detection in Python](https://learning.oreilly.com/library/view/outlier-detection-in/9781633436473/)
+  - https://github.com/Brett-Kennedy/OutlierDetectionInPython 
+- 2024 [Beginning Anomaly Detection Using Python-Based Deep Learning](https://learning.oreilly.com/library/view/beginning-anomaly-detection/9798868800085/)
+  - https://github.com/Apress/beginning-anomaly-detection-python-deep-learning-2e
 #### [Beginning Anomaly Detection Using Python-Based Deep Learning](https://learning.oreilly.com/library/view/beginning-anomaly-detection/9798868800085/)
 - https://github.com/apress/beginning-anomaly-detection-python-deep-learning-2e/tree/master
 ```
