@@ -19,6 +19,7 @@
 * **適用**: 投資組合優化 (Portfolio Optimization)、相關性矩陣分析。
 * **關鍵字搜尋**: `S&P 500 stock data` (by Cam Nugent)
 * [S&P 500 stock data | Kaggle](https://www.kaggle.com/datasets/camnugent/sandp500)
+* https://github.com/MelikBLK/SP500-Data-Analytics-and-Price-Prediction/tree/main
 
 ### **Nasdaq & NYSE Stocks (Fundamental)**
 * **簡介**: 除了價格外，部分資料集包含基本面指標 (PE Ratio, EPS, Market Cap)。
@@ -29,6 +30,9 @@
 
 ## 2. 新聞與情緒分析 (NLP & Sentiment Analysis)
 這類資料集用於訓練模型解讀市場情緒，是 AI FinTech 的熱門領域。
+- [利用 LangChain 分析金融新聞的情緒](https://patotricks15.medium.com/sentiment-analysis-of-financial-news-using-langchain-43b39eb401a7)
+- 202410 [Financial Sentiment Analysis on News and Reports Using Large Language Models and FinBERT](https://arxiv.org/abs/2410.01987)
+- 2024 [A FinBERT Framework for Sentiment Analysis of Chinese Financial News](https://ieeexplore.ieee.org/document/10699096)
 
 ### **Daily News for Stock Market Prediction**
 * **簡介**: 經典入門資料集。結合了 DJIA (道瓊指數) 的漲跌標籤與當日 Reddit WorldNews 的熱門頭條。
