@@ -1,4 +1,5 @@
-## SARIMA
+## SARIMA(Gemini)
+- https://www.geeksforgeeks.org/deep-learning/time-series-modeling-with-statsmodels/
 ```python
 import pandas as pd
 import numpy as np
