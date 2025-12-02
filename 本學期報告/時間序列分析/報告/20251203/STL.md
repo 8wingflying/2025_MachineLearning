@@ -25,9 +25,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # %matplotlib inline
-
-"""https://rdrr.io/cran/fpp/man/a10.html"""
-
+```
+```python
 df = pd.read_csv('../data/AusAntidiabeticDrug.csv')
 df.head(10)
 
@@ -49,8 +48,9 @@ fig.autofmt_xdate()
 plt.tight_layout()
 
 plt.savefig('figures/CH11_F01_peixeiro.png', dpi=300)
-
-"""## Exploration"""
+```
+## Exploration
+```python
 
 decomposition = STL(df.y, period=12).fit()
 
