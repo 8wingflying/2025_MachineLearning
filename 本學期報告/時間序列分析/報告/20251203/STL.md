@@ -1,6 +1,6 @@
 
-#
-
+# STL
+- https://www.geeksforgeeks.org/data-analysis/seasonal-decomposition-of-time-series-by-loess-stl/
 ```python
 # -*- coding: utf-8 -*-
 # Commented out IPython magic to ensure Python compatibility.
