@@ -7,6 +7,8 @@
 - Time Series Anomaly Detection
 
 ## 書籍
+- 2025[Time Series Forecasting Using Foundation Models](https://learning.oreilly.com/library/view/time-series-forecasting/9781633435896/)
+  - https://github.com/marcopeix/TimeSeriesForecastingUsingFoundationModels 
 - [Practical Time Series Analysis(2019)](https://learning.oreilly.com/library/view/practical-time-series/9781492041641/)
   - [內容](BOOK_TS1.md) 
 - [Time Series Forecasting in Python](https://learning.oreilly.com/library/view/time-series-forecasting/9781617299889/)
