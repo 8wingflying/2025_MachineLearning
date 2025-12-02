@@ -8,7 +8,10 @@
 - MLP
 ## 深度學習
 - LSTM
-
+- DEEPAR(2017/2019)
+  - https://arxiv.org/abs/1704.04110
+  - https://www.geeksforgeeks.org/deep-learning/deepar-forecasting-algorithm/
+  - https://towardsdatascience.com/deepar-mastering-time-series-forecasting-with-deep-learning-bc717771ce85/
 ## 自動化機器學習 (AutoML)
 - AutoML
 - AutoML Tools 
